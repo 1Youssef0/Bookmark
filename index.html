@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-center">
+            <div>
+                <h1 class="m-5">Bookmarker</h1>
+            </div>
+            <div class="line my-4"></div>
+            <p><span><i class="fa-solid fa-bookmark"></i></span> Bookmark your favorite sites <span><i
+                        class="fa-solid fa-bookmark"></i></span></p>
+        </div>
+
+        <div class="my-4">
+            <label for="siteName" class="form-label"><span><i class="fa-solid fa-book-bookmark"></i></span> Site
+                Name</label>
+            <input type="text" class="form-control" placeholder="BookMark Name" id="siteName" oninput="nameValidation()">
+        </div>
+        <div>
+            <label for="siteUrl" class="form-label"><span><i class="fa-solid fa-link"></i></span> Site URL</label>
+            <input type="text" class="form-control"  placeholder="Website URL" id="siteUrl" oninput="emailValidation()">
+        </div>
+        <div class="sub text-center my-4">
+            <button type="button" class="btn btn-danger" onclick="submit()">Submit</button>
+        </div>
+        <div class="line my-4"></div>
+        <div>
+            <table class="table text-center" id="dataCol">
+                <thead>
+                    <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Website Name</th>
+                        <th scope="col">Visit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+               
+                <tbody>
+                    
+                </tbody>
+              
+            </table>
+
+    
+           </div>
+
+
+
+
+
+
+
+
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

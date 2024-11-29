@@ -1,0 +1,54 @@
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color:rgb(53, 46, 40);
+    font-family: "Pacifico", cursive;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    border: rgb(53, 46, 40) 1px;
+    border-style: dashed;
+}
+p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    background: linear-gradient(to right, rgb(69, 165, 90) 41%, #5AA757 40%, #7FA952 50%, #A3AB4C 60% );
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Righteous", sans-serif;
+}
+.form-label{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.form-control{
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sub button{
+    width: 150px;
+    background-color: #D1512D;
+}
+.sub button:hover{
+    background-color: #BB4120;
+    transition: 0.3s;
+}
+a button{
+    background-color: #9EB23B!important;
+    border-color:#9EB23B !important;
+}
+a button:hover{
+    background-color: #8A9E23 !important ;
+    border-color:#8A9E23 !important ;
+}
